@@ -1,6 +1,7 @@
 class SmartDevice {
-//Defining property 'val' for the class SmartDevice
+//Defining property 'name' for the class SmartDevice
     val name = "Android TV"
+    val category ="Entertainment"
 
     fun turnOn(){
         println("Smart device is turned on.")
