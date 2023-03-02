@@ -14,6 +14,8 @@ class SmartDevice {
 }
 fun main(){
     val samsung = SmartDevice()
+    //This will print out the name property for the class
+    println("The device name is:${samsung.name}")
     samsung.turnOn()
     samsung.turnOff()
 }
